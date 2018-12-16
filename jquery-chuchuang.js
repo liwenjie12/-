@@ -63,7 +63,7 @@
                 time = setInterval(view, 2000);
             });
             this.children("div").eq(1).on("click",function () {
-                if(flag==1);
+                if(flag==1)
                 return false;
                 flag=1;
                 shunxu.eq(j-1).fadeIn(1000).siblings("img").fadeOut(500);
@@ -74,7 +74,7 @@
                 console.log(j);
             });
             this.children("div").eq(0).on("click",function () {
-                if(flag==1);
+                if(flag==1)
                 return false;
                 flag=1;
                 if(j===shunxu.length-1)
