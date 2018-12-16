@@ -1,0 +1,33 @@
+.lunbo {margin:100px auto;position:relative;width: 794px;
+    height: 230px;
+ }
+.rightclick{width: 30px;
+height: 30px;
+position: absolute;
+top: 50%;
+left: 98%;
+display: block;
+transform: translate(-100%,-50%);
+background-color: rgba(68,68,68,0.4);
+border-radius: 50%;
+color: white;
+line-height: 30px;
+text-align: center;
+font-size: 22px;
+cursor: pointer;}
+.leftclick{
+width: 30px;
+height: 30px;
+position: absolute;
+top: 50%;
+left: 2%;
+display: block;
+transform: translateY(-50%);
+border-radius: 50%;
+background-color: rgba(68,68,68,0.4);
+color: white;
+line-height: 30px;
+text-align: center;
+font-size: 22px;
+cursor: pointer;
+}
