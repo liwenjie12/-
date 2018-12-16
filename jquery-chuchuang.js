@@ -64,7 +64,7 @@
             });
             this.children("div").eq(1).on("click",function () {
                 if(flag==1);
-                return;
+                return false;
                 flag=1;
                 shunxu.eq(j-1).fadeIn(1000).siblings("img").fadeOut(500);
                 j--;
@@ -75,7 +75,7 @@
             });
             this.children("div").eq(0).on("click",function () {
                 if(flag==1);
-                return;
+                return false;
                 flag=1;
                 if(j===shunxu.length-1)
                     j=-1;
