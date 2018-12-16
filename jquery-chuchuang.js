@@ -70,6 +70,7 @@
                 j--;
                 if(j===-1)
                     j=shunxu.length-1;
+                flag=0;
                 console.log(j);
             });
             this.children("div").eq(0).on("click",function () {
@@ -80,6 +81,7 @@
                     j=-1;
                 shunxu.eq(j+1).fadeIn(1000).siblings("img").fadeOut(500);
                 j++;
+                flag=0;
                 console.log(j);
             });
         }
